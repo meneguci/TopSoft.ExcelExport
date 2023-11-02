@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopSoft.ExcelExport", "TopSoft.ExcelExport\TopSoft.ExcelExport.csproj", "{F0CA892E-4B13-408C-80A4-C7324671E0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopSoft.ExcelExport.Core", "TopSoft.ExcelExport\TopSoft.ExcelExport.Core.csproj", "{F0CA892E-4B13-408C-80A4-C7324671E0D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSoft.ExcelExport.Samples", "TopSoft.ExcelExport.Samples\TopSoft.ExcelExport.Samples.csproj", "{9FB6CCE1-2FD6-44E0-8A63-442C69C69375}"
 EndProject
@@ -24,5 +23,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01BD7CF8-A40D-4B0D-81B9-825910696DC1}
 	EndGlobalSection
 EndGlobal

@@ -5,11 +5,12 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\..\Source\Workspaces\WorldVisionMS\WVProgrammLS\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyTitle>TopSoft.ExcelExport</AssemblyTitle>
-    <Product>TopSoft.ExcelExport</Product>
-    <Copyright>Copyright ©  2016</Copyright>
+    <AssemblyTitle>ExcelExport.Core</AssemblyTitle>
+    <Product>ExcelExport.Core</Product>
+    <Copyright>Copyright ©  2023</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
